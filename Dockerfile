@@ -23,4 +23,4 @@ ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/SpringBoot
 # sudo docker build -t <dockerhub-user>/ng5-api .
 
 # docker run
-# sudo docker run --name aaburto-api -p 8147:8080 -d aaburto/springboot-api  
+# sudo docker run --name aaburto-api -p 8147:8080 -d aaburto/springboot-jwt 
